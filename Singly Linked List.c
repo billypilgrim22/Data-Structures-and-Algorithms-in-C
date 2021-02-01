@@ -114,7 +114,7 @@ void display(){
 
 int main(){
     int ch;
-    printf("1.Insbeg\n2.Insend\n3.Inspos\n4.Delbeg\n5.Delend\n6.Delpos\n7.Display\n8.Exit");
+    printf("Linked List Menu\n1.Insbeg\n2.Insend\n3.Inspos\n4.Delbeg\n5.Delend\n6.Delpos\n7.Display\n8.Exit");
     while(1){
         printf("\nEnter choice: ");
         scanf("%d",&ch);
