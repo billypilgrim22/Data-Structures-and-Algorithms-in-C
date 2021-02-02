@@ -4,7 +4,7 @@
 struct node{
   int info;
   struct node* next;
-}*head=NULL,*n,*tptr,*ttptr;
+}*head=,*n,*tptr,*ttptr;
 
 void insbeg(){
   n=(struct node*)malloc(sizeof(struct node));
